@@ -1,0 +1,35 @@
+
+nav {
+  padding: 2.5rem 5%;
+  color: #fff;
+  background-color: #ccff90  ;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+
+#logo {
+  font-weight: 700;
+  font-size: .85em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border: 2px solid #E9E9E9;
+  padding: 1rem;
+  text-decoration: none;
+  color: #424652;
+  float: left;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+nav > a {
+  float: right;
+  padding-right: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav > a:hover {
+  color: rgb(233,50,117);
+  text-decoration: none;
+}

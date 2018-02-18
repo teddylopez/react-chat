@@ -1,28 +1,42 @@
-.App {
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after {
+   content: " ";
+   display: table;
+}
+
+.clearfix::after {
+   clear: both;
+}
+
+html, #root {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  height: 100%;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+button {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+button.clear-style {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+button.clear-style:focus,
+button.clear-style:active {
+  outline: none;
 }
