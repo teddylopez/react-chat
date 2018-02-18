@@ -1,0 +1,38 @@
+.sidenav {
+  top: 5rem;
+  height: 100%;
+  width: 15rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #448aff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+#room-list {
+  margin-top: 10rem;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
