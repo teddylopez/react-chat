@@ -9,7 +9,6 @@ class RoomList extends Component {
         rooms: []
       };
     //this.roomsRef = this.props.firebase.database().ref('rooms');
-    //console.log(this.props.firebase.database);
   }
 
   render() {
