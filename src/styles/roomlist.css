@@ -8,3 +8,7 @@
   list-style:none;
   padding-left:0;
 }
+
+.room-names li {
+  padding-bottom: 3rem;
+}
