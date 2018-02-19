@@ -9,7 +9,6 @@ class AppHeader extends Component {
         <Link to='/' id="logo">chatted</Link>
         <nav className="clearfix">
           <Link to='#'>About</Link>
-          <Link to='#'>Library</Link>
         </nav>
       </header>
     );
