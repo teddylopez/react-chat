@@ -26,7 +26,7 @@ class App extends Component {
           <Route exact path="/" component={Landing} />
         </main>
         <Landing />
-        <SideBar />
+        <SideBar firebase={firebase} />
       </div>
     );
   }
